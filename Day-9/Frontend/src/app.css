@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    padding: 0.6rem;
+}
+
+.sub-con-1{
+    margin: auto;
+    padding: 0.8rem;
+}
+
+.sub-con-1 .noteTit, .sub-con-1 .noteDes, button{
+    outline: none;
+    font-size: 1rem;
+    padding-inline: 0.5rem;
+    padding-block: 0.3rem;
+    margin-right: 0.6rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.sub-con-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
